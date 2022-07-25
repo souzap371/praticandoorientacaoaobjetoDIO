@@ -2,12 +2,9 @@ package poo.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente {
+public class Cliente extends Pessoa{
 
-    public Integer codigo;
-    public String nome;
-    public String cpf;
-
+    public String numCartao;
     private List<Endereco> enderecos;
 
     public void adicionaEndereco(Endereco endereco){
